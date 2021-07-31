@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./header/header";
 import Footer from "./footer";
 
 export default function Layout({children}: any)  {
