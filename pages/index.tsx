@@ -7,6 +7,6 @@ const HomePage: NextPage = () => {
             <h1>WIP</h1>
         </Layout>
     );
-}
+};
 
 export default HomePage;

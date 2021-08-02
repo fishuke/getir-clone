@@ -15,7 +15,7 @@ export const Layout: FC<ILayoutProps> = ({ children, title, description }) => {
                 <title>{title}</title>
                 <meta
                     name="description"
-                    content={description || "Getir clone made with NextJs"}
+                    content={description || 'Getir clone made with NextJs'}
                 />
                 <link rel="icon" href="/icons/favicon.ico" />
             </Head>
