@@ -3,7 +3,6 @@
     -webkit-box-align: center;
     align-items: center;
     height: 100%;
-
 }
 
 .nav-item {
@@ -11,12 +10,11 @@
     height: 40px;
     margin-right: 1px;
     padding: 12px 20px;
-    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%) hue-rotate(
-            180deg
-    ) contrast(102%);
+    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%)
+        hue-rotate(180deg) contrast(102%);
 }
 
-.nav-item-active{
+.nav-item-active {
     filter: none;
     background: var(--color-primary);
 }
@@ -33,4 +31,3 @@
     -webkit-box-align: center;
     align-items: center;
 }
-
