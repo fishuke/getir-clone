@@ -1,6 +1,5 @@
 .nav-list {
     display: inline-flex;
-    -webkit-box-align: center;
     align-items: center;
     height: 100%;
 }
@@ -10,13 +9,20 @@
     height: 40px;
     margin-right: 1px;
     padding: 12px 20px;
-    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%)
-        hue-rotate(180deg) contrast(102%);
+    border-radius: 6px 6px 0px 0px;
+    cursor: pointer;
+}
+.nav-item img {
+    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%) hue-rotate(180deg) contrast(102%);
 }
 
-.nav-item-active {
-    filter: none;
+.nav-item-active,
+.nav-item:hover {
     background: var(--color-primary);
+}
+
+.nav-item-active img {
+    filter: none;
 }
 
 .container {
@@ -26,8 +32,6 @@
     margin-right: auto;
     height: 100%;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
     align-items: center;
 }
