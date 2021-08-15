@@ -1,0 +1,40 @@
+.product img {
+    height: 48px;
+    width: 48px;
+    border-radius: 8px;
+    border: 1px solid rgb(27 14 14 / 10%) !important;
+
+  
+    
+}
+
+.product p {
+    text-align: center;
+    margin-top: 12px;
+    font-weight: var(--font-weight-semi-bold);
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    color: var(--color-gray-dark);
+    transition: color 0.2s ease 0s;
+    overflow-wrap: break-word;
+    width: 111%;
+    margin-left: -22%;
+}
+
+.margintop {
+    margin-top: 5%;
+}
+
+.margintop2 {
+    margin-top: 2%;
+}
+
+.categorytext {
+    margin-top: 2%;
+    margin-bottom: -2rem;
+    margin-left: -3%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}

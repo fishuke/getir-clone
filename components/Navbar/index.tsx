@@ -33,10 +33,26 @@ export const Navbar: FC = () => {
                                 height={16}
                             />
                         </div>
+                        <div className={styles['nav-item']}>
+                            <Image
+                                src="/images/getir-su.svg"
+                                alt="getir su"
+                                width={'87px'}
+                                height={16}
+                            />
+                        </div>
+                        <div className={styles['nav-item']}>
+                            <Image
+                                src="/images/getir-buyuk.svg"
+                                alt="getir büyük"
+                                width={'87px'}
+                                height={16}
+                            />
+                        </div>
                     </div>
                 </div>
             </Box>
-            <Box sx={{ height: '75px', backgroundColor: 'primary.main' }}></Box>
+            {/* <Box sx={{ height: '75px', backgroundColor: 'primary.main' }}></Box> */}
         </>
     );
 };
