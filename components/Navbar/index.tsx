@@ -1,9 +1,13 @@
 import type { FC } from 'react';
 import { Box } from '@material-ui/core';
 import Image from 'next/image';
-import styles from './navbar.module.css';
-
+import'./navbar.module.scss';
+const links={
+    home:'/',
+    yemek:'/yemek'
+}
 export const Navbar: FC = () => {
+    
     return (
         <>
             <Box
@@ -15,25 +19,31 @@ export const Navbar: FC = () => {
                     paddingLeft: '32px',
                 }}
             >
-                <div className={styles.container}>
-                    <div className={styles['nav-list']}>
-                        <div className={styles['nav-item']}>
-                            <Image
-                                src="/images/getir.svg"
-                                alt="getir logo"
-                                width={'36px'}
-                                height={16}
-                            />
+                <div className='container'>
+                    <div className='nav-list'>
+                        <div className='nav-item'>
+                            <a href={links.home}>
+                                <Image
+                                    src="/images/getir.svg"
+                                    alt="getir logo"
+                                    width={'36px'}
+                                    height={16}
+                                />
+                            </a>
+                           
                         </div>
-                        <div className={styles['nav-item']}>
-                            <Image
-                                src="/images/getir-yemek.svg"
-                                alt="getir yemek"
-                                width={'87px'}
-                                height={16}
-                            />
+                        <div className='nav-item'>
+                            <a href={links.yemek}>
+                                <Image
+                                    src="/images/getir-yemek.svg"
+                                    alt="getir yemek"
+                                    width={'87px'}
+                                    height={16}
+                                />
+                            </a>
+                            
                         </div>
-                        <div className={styles['nav-item']}>
+                        <div className='nav-item'>
                             <Image
                                 src="/images/getir-su.svg"
                                 alt="getir su"
@@ -41,7 +51,7 @@ export const Navbar: FC = () => {
                                 height={16}
                             />
                         </div>
-                        <div className={styles['nav-item']}>
+                        <div className='nav-item'>
                             <Image
                                 src="/images/getir-buyuk.svg"
                                 alt="getir büyük"
@@ -52,7 +62,9 @@ export const Navbar: FC = () => {
                     </div>
                 </div>
             </Box>
-            {/* <Box sx={{ height: '75px', backgroundColor: 'primary.main' }}></Box> */}
+            <Box className='lg:hidden' sx={{ height: '55px', backgroundColor: 'primary.main' }}>
+                <img className=' getir-mobile-logo' src="/images/getir.svg" alt=""/>
+            </Box>
         </>
     );
 };
