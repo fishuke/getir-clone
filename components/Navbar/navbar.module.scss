@@ -13,7 +13,8 @@
     cursor: pointer;
 }
 .nav-item img {
-    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%) hue-rotate(180deg) contrast(102%);
+    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%)
+        hue-rotate(180deg) contrast(102%);
 }
 
 .nav-item-active,
@@ -34,4 +35,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.getir-mobile-logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    margin-top: 4%;
+    right: 0;
 }
