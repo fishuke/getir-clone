@@ -19,7 +19,7 @@ export const Layout: FC<ILayoutProps> = ({ children, title, description }) => {
                 />
                 <link rel="icon" href="/icons/favicon.ico" />
             </Head>
-            <Navbar img='/images/getir.svg'/>
+            <Navbar img='/images/getir-yemek.svg' />
             <main>{children}</main>
             <Footer />
         </>
