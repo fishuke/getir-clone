@@ -6,10 +6,7 @@ const links={
     home:'/',
     yemek:'/yemek'
 }
-export interface ILayoutProps {
-    img: string;
-}
-export const Navbar: FC<ILayoutProps> = ({ children,img }) => {
+export const Navbar: FC = () => {
     
     return (
         <>
@@ -65,8 +62,13 @@ export const Navbar: FC<ILayoutProps> = ({ children,img }) => {
                     </div>
                 </div>
             </Box>
-            <Box className='lg:hidden' sx={{ height: '55px', backgroundColor: 'primary.main' }}>
-                <img className=' getir-mobile-logo' src={img} alt=""/>
+            <Box className='' sx={{ height: '80px', backgroundColor: 'primary.main' }}>
+                <img className='getir_desktop-logo' src="/images/getir.svg" alt=""/>
+                <input className='getir_search-input' type="text" />
+            </Box>
+            <Box className='getir_backgroud-img-products' sx={{ height: '80px', backgroundColor: 'primary.white' }}>
+                <img className='getir_getir-bag' src="/images/bag.svg" alt=""/>
+                <img className='getir_getir-bike' src="/images/bike.svg" alt=""/>
             </Box>
         </>
     );

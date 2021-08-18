@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { FC } from 'react';
 import { Footer } from '../Footer';
-import { Navbar } from '../Navbar';
+import { Navbar } from '../NavbarProductsMobile';
 
 export interface ILayoutProps {
     title: string;
@@ -19,7 +19,7 @@ export const Layout: FC<ILayoutProps> = ({ children, title, description }) => {
                 />
                 <link rel="icon" href="/icons/favicon.ico" />
             </Head>
-            <Navbar img='/images/getir.svg'/>
+            <Navbar />
             <main>{children}</main>
             <Footer />
         </>

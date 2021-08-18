@@ -1,0 +1,75 @@
+.nav-list {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    margin-top: 5px;
+    height: 40px;
+    margin-right: 1px;
+    padding: 12px 20px;
+    border-radius: 6px 6px 0px 0px;
+    cursor: pointer;
+}
+.nav-item img {
+    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%)
+        hue-rotate(180deg) contrast(102%);
+}
+
+.nav-item-active,
+.nav-item:hover {
+    background: var(--color-primary);
+}
+
+.nav-item-active img {
+    filter: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1232px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.getir {
+    &_desktop-logo {
+        position: absolute;
+        margin-left: 8%;
+        margin-right: auto;
+        margin-top: 1.5%;
+    }
+    &_getir-bag {
+        position: absolute;
+        margin-left: 8%;
+        margin-right: auto;
+        margin-top: 1.5%;
+    }
+    &_getir-bike {
+        position: absolute;
+        margin-left: 17%;
+        margin-right: auto;
+        margin-top: 1.5%;
+    }
+    &_backgroud-img-products {
+        background-image: url('https://i.hizliresim.com/bc3lbwf.png');
+    }
+    &_search-input {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 37%;
+        outline: none;
+        background-image: linear-gradient(to right, rgba(1,31,6,0), #fad300);
+        background-color: linear-gradian;
+        margin-top: 1.4%;
+        width: 30%;
+        border-radius: 0%;
+        height: 4%;
+    }
+}
+
