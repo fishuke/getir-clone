@@ -2,8 +2,11 @@ import type { FC } from 'react';
 import { Box } from '@material-ui/core';
 import Image from 'next/image';
 import'./navbar.module.scss';
-
+const links={
+    yemek:'/yemek'
+}
 export const Navbar: FC = () => {
+    
     return (
         <>
             <Box
@@ -26,12 +29,15 @@ export const Navbar: FC = () => {
                             />
                         </div>
                         <div className='nav-item'>
-                            <Image
-                                src="/images/getir-yemek.svg"
-                                alt="getir yemek"
-                                width={'87px'}
-                                height={16}
-                            />
+                            <a href={links.yemek}>
+                                <Image
+                                    src="/images/getir-yemek.svg"
+                                    alt="getir yemek"
+                                    width={'87px'}
+                                    height={16}
+                                />
+                            </a>
+                            
                         </div>
                         <div className='nav-item'>
                             <Image
