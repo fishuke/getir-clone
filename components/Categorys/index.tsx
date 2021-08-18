@@ -3,8 +3,8 @@ import  './categorys.module.scss';
 export const Categorys: FC = () => {
     return (
         <div>
+          <p className='categorytext hidden lg:grid'>Kategoriler</p>
           <div className="flex justify-center">
-                <p className='categorytext hidden lg:grid'>Kategoriler</p>
                 <div className='margintop product'>
                     <div className="grid grid-cols-4 lg:grid-cols-12  gap-4">
                         <div className="col-span-1">

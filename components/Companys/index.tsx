@@ -2,8 +2,10 @@ import { FC } from 'react';
 import './companys.module.scss';
 export const Companys: FC = () => {
     return(
-        <div className='flex justify-center companys'>
-            <p className='companystext hidden lg:grid'> Kampanyalar</p>
+        <div>
+<p className='companystext hidden lg:grid'> Kampanyalar</p>
+<div className='flex justify-center companys'>
+
             <div className='container'>
                 <div className='hidden lg:grid grid-cols-3'>
                     <div className='' >
@@ -18,5 +20,8 @@ export const Companys: FC = () => {
                 </div>
             </div>
         </div>
-    )
+    
+        </div>
+        )
+        
 };
