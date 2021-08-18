@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 
-import '../styles/globals.css'
+import '../global.scss'
 import 'tailwindcss/tailwind.css'
 
 const theme = createTheme({

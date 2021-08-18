@@ -1,14 +1,12 @@
 import { FC } from 'react';
-import styles from './categorys.module.css';
+import  './categorys.module.scss';
 export const Categorys: FC = () => {
-    const classes = `${styles.margintop} ${styles.product}`;
-    const classes2 = `${styles.margintop2} ${styles.product}`;
     return (
         <div>
           <div className="flex justify-center">
-                <p className={styles.categorytext}>Kategoriler</p>
-                <div className={classes}>
-                    <div className="grid grid-cols-12 gap-4">
+                <p className='categorytext hidden lg:grid'>Kategoriler</p>
+                <div className='margintop product'>
+                    <div className="grid grid-cols-4 lg:grid-cols-12  gap-4">
                         <div className="col-span-1">
                             <img
                                 src="http://cdn.getir.com/cat/5697c78dc181490f00c99fea_f7ef7ccb-f3a4-4388-b787-232967c16320.jpeg"
@@ -97,8 +95,8 @@ export const Categorys: FC = () => {
                 </div>
             </div>
             <div className="flex justify-center">
-                <div className={classes2}>
-                    <div className="grid grid-cols-12 gap-4">
+                <div className='margintop2 product'>
+                    <div className="grid  hidden lg:grid grid-cols-12 gap-4">
                         <div className="col-span-1">
                             <img
                                 src="http://cdn.getir.com/cat/5697c78dc181490f00c99fea_f7ef7ccb-f3a4-4388-b787-232967c16320.jpeg"

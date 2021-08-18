@@ -1,13 +1,11 @@
 import { FC } from 'react';
-import styles from './companys.module.css';
+import './companys.module.scss';
 export const Companys: FC = () => {
-    const classes = `flex justify-center ${styles.companys }`
-
     return(
-        <div className={classes}>
-            <p className={styles.companystext}> Kampanyalar</p>
-            <div className='container  '>
-                <div className='grid grid-cols-3'>
+        <div className='flex justify-center companys'>
+            <p className='companystext hidden lg:grid'> Kampanyalar</p>
+            <div className='container'>
+                <div className='hidden lg:grid grid-cols-3'>
                     <div className='' >
                         <img width='400' src="https://cdn.getir.com/misc/5fb524d4c725f1530045cefc_banner_tr_1609343376255.jpeg" alt="" />
                     </div>
