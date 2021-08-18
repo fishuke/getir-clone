@@ -3,6 +3,7 @@ import { Box } from '@material-ui/core';
 import Image from 'next/image';
 import'./navbar.module.scss';
 const links={
+    home:'/',
     yemek:'/yemek'
 }
 export const Navbar: FC = () => {
@@ -21,12 +22,15 @@ export const Navbar: FC = () => {
                 <div className='container'>
                     <div className='nav-list'>
                         <div className='nav-item'>
-                            <Image
-                                src="/images/getir.svg"
-                                alt="getir logo"
-                                width={'36px'}
-                                height={16}
-                            />
+                            <a href={links.home}>
+                                <Image
+                                    src="/images/getir.svg"
+                                    alt="getir logo"
+                                    width={'36px'}
+                                    height={16}
+                                />
+                            </a>
+                           
                         </div>
                         <div className='nav-item'>
                             <a href={links.yemek}>
