@@ -9,3 +9,13 @@ module.exports = {
   },
   plugins: [],
 }
+
+module.exports = {
+  theme: {
+    extend: {
+      zIndex: {
+       '11': '-1',
+      }
+    }
+  }
+}
