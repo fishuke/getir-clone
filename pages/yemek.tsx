@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout/LayoutYemek';
 import {HomeSliderGetirYemek} from '../components/HomeSliderGetirYemek';
 import {Categorys} from '../components/Categorys';
 import {GetirWidgetMobil} from '../components/GetirWidgetMobil';
-import {Companys} from '../components/Companys';
+import {CompanysYemek} from '../components/CompanysYemek';
 const HomePage: NextPage = () => {
     return (
         <Layout title="Getir">
@@ -13,7 +13,7 @@ const HomePage: NextPage = () => {
            
             <div>
             <Categorys/>
-            <Companys/>
+            <CompanysYemek/>
             <GetirWidgetMobil/>
             </div>
         </Layout>

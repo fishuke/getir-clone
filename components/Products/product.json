@@ -1,0 +1,15 @@
+{
+  "products":[
+    {"product_name":"Hanımeller Mahlepli Kurabiye", "product_img":"https://cdn.getir.com/product/610b9b9d10180fbdb080af41_tr_1628859271950.jpeg","product_price":"₺2,75"},
+    {"product_name":"Bebeto Super Belts", "product_img":"https://cdn.getir.com/product/60fe700e75fbfa29c6de71c2_tr_1628084622364.jpeg","product_price":"₺6,75"},
+    {"product_name":"Bebeto Wacky Stick", "product_img":"https://cdn.getir.com/product/60fe7756fd22c66cb9f2e90f_tr_1628085775793.jpeg","product_price":"₺5,75"},
+    {"product_name":"Kallavi Kavun", "product_img":"https://cdn.getir.com/product/610bcc1dc9bc77d585e1aa5d_tr_1628491683054.jpeg","product_price":"₺9,75"},
+    {"product_name":"Uluhan Kokteyl Domates", "product_img":"https://cdn.getir.com/product/60eeac6ac321695107ece597_tr_1626269765545.jpeg","product_price":"₺4,75"},
+    {"product_name":"UNO Tahıllı Tava Ekmeği", "product_img":"https://cdn.getir.com/product/60c1c77d98369791cf5d98f8_tr_1623335406884.jpeg","product_price":"₺6,75"},
+    {"product_name":"Parodontax Beyazlatıcı", "product_img":"https://cdn.getir.com/product/60dc650483bc8452fed88187_tr_1625122526216.jpeg","product_price":"₺12,75"},
+    {"product_name":"Eti Canga Gold", "product_img":"https://cdn.getir.com/product/60d9697600a9a7d46f91f780_tr_1624953183058.jpeg","product_price":"₺6,75"},
+    {"product_name":"Clasigo Karamel", "product_img":"https://cdn.getir.com/product/60bf83c734cba825e1fd8ae1_tr_1623684664580.jpeg","product_price":"₺2,75"},
+    {"product_name":"Whiskas Tavuklu", "product_img":"https://cdn.getir.com/product/60b0fd5a471ad3e13fd6028e_tr_1622228320506.jpeg","product_price":"₺22,75"},
+    {"product_name":"Sütaş Tereyağı", "product_img":"https://cdn.getir.com/product/60645b9a4b29c55e8b90cfd2_tr_1619677613821.jpeg","product_price":"₺20,75"}
+  ]
+  }
