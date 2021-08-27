@@ -15,7 +15,7 @@ export const RegisterCard: FC = () => {
 		TR: '+90',
 	}
     return (
-      <div className="w-[400px] bg-white rounded-lg px-5 py-6 max-w-md mx-auto  rounded-lg overflow-hidden  md:max-w-md lg:mr-9 w-75">
+      <div className="w-[400px] bg-white rounded-lg px-5 py-6 max-w-md mx-auto  rounded-lg md:max-w-md lg:mr-9 w-75">
       <h3 className="text-center mb-4 font-semibold text-purple-600">Giriş yap veya kayıt ol</h3>
       <div className="flex flex-col gap-y-3">
         <div className="flex gap-x-3">
