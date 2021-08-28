@@ -12,8 +12,8 @@ type Props = {
 
 
 
-function NextButton(props) {
-  const { onClick,className } = props;
+function NextButton(Props) {
+  const { onClick,className } = Props;
   return (
     <button className={`${className} text-purple-700`} onClick={onClick}>
         <IoIosArrowForward size={22} />
@@ -21,8 +21,8 @@ function NextButton(props) {
   );
 }
 
-function PrevButton(props) {
-  const { onClick,className } = props;
+function PrevButton(Props) {
+  const { onClick,className } = Props;
   return (
     <button className={`${className} text-purple-700`} onClick={onClick}>
         <IoIosArrowBack size={22} />
