@@ -31,7 +31,7 @@ export const Companys: FC = () => {
 
     const [banners, setBanners] = useState([])
 
-    state = {
+    const state = {
         Banners: Array<{id: string, path: string}>()
     }
 
