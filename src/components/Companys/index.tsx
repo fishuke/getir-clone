@@ -29,11 +29,9 @@ function PrevButton ({ onClick,className }: Props) {
 
 export const Companys: FC = () => {
 
-    const [banners, setBanners] = useState([])
+    const [banners, setBanners] = useState<string[]>([]);
 
-    const state = {
-        Banners: Array<{id: string, path: string}>()
-    }
+    
 
 	useEffect(() => {
 		setBanners(Banners)
