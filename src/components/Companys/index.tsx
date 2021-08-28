@@ -5,20 +5,20 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 
 import './companys.module.scss';
 
-interface IProps {
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
-  className: string;
+type Props = {
+  onClick: React.MouseEventHandler<HTMLButtonElement>,
+  className: string
 }
 
-const NextButton : FC<NextButton> = ({ onClick,className }: IProps) => {
+
+function NextButton ({ onClick,className }: Props) {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowForward size={22} />
 		</button>
 	)
 }
-
-const PrevButton : FC<PrevButton>  = ({ onClick,className }: IProps) => {
+function PrevButton ({ onClick,className }: Props) {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowBack size={22} />
