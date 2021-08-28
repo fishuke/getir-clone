@@ -50,6 +50,7 @@ export const Companys: FC = () => {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
+        arrows:true,
 		nextArrow: <NextButton/>,
 		prevArrow: <PrevButton/>,
         responsive: [
