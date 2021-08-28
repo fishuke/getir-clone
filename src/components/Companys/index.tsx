@@ -6,7 +6,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import './companys.module.scss';
 
 type Props = {
-  onClick: MouseEventHandler,
+  onClick: React.MouseEventHandler,
   className: string
 }
 
