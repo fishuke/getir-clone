@@ -28,8 +28,11 @@ function PrevButton ({ onClick,className }: Props) {
 
 
 export const Companys: FC = () => {
-
-    const [banners, setBanners] = useState<string[]>([])
+    interface BannerData {
+    id:number,
+    image:string
+    }
+    const [banners, setBanners] = useState<BannerData[]>([])
 
     
 
