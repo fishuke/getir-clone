@@ -11,24 +11,22 @@ type Props = {
 }
 
 
-
-function NextButton(Props) {
-  const { onClick,className } = Props;
-  return (
-    <button className={`${className} text-purple-700`} onClick={onClick}>
-        <IoIosArrowForward size={22} />
-    </button>
-  );
+function NextButton ({ onClick,className }: Props) {
+	return (
+		<button className={`${className} text-purple-700`} onClick={onClick}>
+			<IoIosArrowForward size={22} />
+		</button>
+	)
+}
+function PrevButton ({ onClick,className }: Props) {
+	return (
+		<button className={`${className} text-purple-700`} onClick={onClick}>
+			<IoIosArrowBack size={22} />
+		</button>
+	)
 }
 
-function PrevButton(Props) {
-  const { onClick,className } = Props;
-  return (
-    <button className={`${className} text-purple-700`} onClick={onClick}>
-        <IoIosArrowBack size={22} />
-    </button>
-  );
-}
+
 
 export const Companys: FC = () => {
 
