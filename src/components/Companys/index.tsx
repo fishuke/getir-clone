@@ -31,7 +31,11 @@ export const Companys: FC = () => {
 
     const [banners, setBanners] = useState([])
 
-	useEffect(({ id: number; image: string; }) => {
+    state = {
+        Banners: Array<{id: string, path: string}>()
+    }
+
+	useEffect(() => {
 		setBanners(Banners)
 	}, [])
 
