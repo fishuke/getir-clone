@@ -31,7 +31,7 @@ export const Companys: FC = () => {
 
     const [banners, setBanners] = useState([])
 
-	useEffect(() => {
+	useEffect(({ id: number; image: string; }) => {
 		setBanners(Banners)
 	}, [])
 
