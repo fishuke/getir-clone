@@ -6,14 +6,14 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import './companys.module.scss';
 
 
-const NextButton : FC = ({ onClick, className }) => {
+const NextButton : React.FC<Props> = ({ onClick, className }) => {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowForward size={22} />
 		</button>
 	)
 }
-const PrevButton : FC = ({ onClick, className }) => {
+const PrevButton : React.FC<Props>  = ({ onClick, className }) => {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowBack size={22} />
