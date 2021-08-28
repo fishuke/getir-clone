@@ -6,7 +6,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import './companys.module.scss';
 
 
-const NextButton : .FC = ({children: onClick, className }) => {
+const NextButton : FC = ({children: onClick, className }) => {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowForward size={22} />
