@@ -51,8 +51,8 @@ export const Companys: FC = () => {
 		autoplay: true,
 		autoplaySpeed: 3000,
         arrows:true,
-		nextArrow: <NextButton/>,
-		prevArrow: <PrevButton/>,
+		nextArrow: <NextButton onClick={null} className={null}/>,
+		prevArrow: <PrevButton onClick={null} className={null}/>,
         responsive: [
         {
   breakpoint: 568,
