@@ -48,8 +48,8 @@ export const Companys: FC = () => {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
-		nextArrow: <NextButton className={} onClick={onClick}/>,
-		prevArrow: <PrevButton className={} onClick={onClick}/>,
+		nextArrow: <NextButton className={className} onClick={onClick}/>,
+		prevArrow: <PrevButton className={className} onClick={onClick}/>,
         responsive: [
         {
   breakpoint: 568,
