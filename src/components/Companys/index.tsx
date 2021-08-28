@@ -11,21 +11,24 @@ type Props = {
 }
 
 
-function NextButton ({ onClick,className }: Props) {
-	return (
-		<button className={`${className} text-purple-700`} onClick={onClick}>
-			<IoIosArrowForward size={22} />
-		</button>
-	)
-}
-function PrevButton ({ onClick,className }: Props) {
-	return (
-		<button className={`${className} text-purple-700`} onClick={onClick}>
-			<IoIosArrowBack size={22} />
-		</button>
-	)
+
+function NextButton(props) {
+  const { onClick,className } = props;
+  return (
+    <button className={`${className} text-purple-700`} onClick={onClick}>
+        <IoIosArrowForward size={22} />
+    </button>
+  );
 }
 
+function PrevButton(props) {
+  const { onClick,className } = props;
+  return (
+    <button className={`${className} text-purple-700`} onClick={onClick}>
+        <IoIosArrowBack size={22} />
+    </button>
+  );
+}
 
 export const Companys: FC = () => {
 
@@ -51,8 +54,8 @@ export const Companys: FC = () => {
 		autoplay: true,
 		autoplaySpeed: 3000,
         arrows:true,
-		nextArrow: <NextButton onClick={null} className={null}/>,
-		prevArrow: <PrevButton onClick={null} className={null}/>,
+		nextArrow: <NextButton/>,
+		prevArrow: <PrevButton/>,
         responsive: [
         {
   breakpoint: 568,
