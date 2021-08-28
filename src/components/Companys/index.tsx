@@ -11,14 +11,14 @@ type Props = {
 }
 
 
-function NextButton ({ onClick,className }: Props) {
+function NextButton ({ onClick,className }) {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowForward size={22} />
 		</button>
 	)
 }
-function PrevButton ({ onClick,className }: Props) {
+function PrevButton ({ onClick,className }) {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowBack size={22} />
