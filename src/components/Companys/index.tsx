@@ -22,7 +22,7 @@ function PrevButton ({ onClick, className }) {
 }
 
 
-export const Companys: FC = () => {
+export const Companys: FC = ({onClick}) => {
 
     const [banners, setBanners] = useState([])
 
