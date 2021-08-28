@@ -29,8 +29,7 @@ function PrevButton ({ onClick,className }: Props) {
 
 export const Companys: FC = () => {
 
-    const initArr: string[] = [];
-    const [banners, setBanners] = useState(initArr);
+    const [banners, setBanners] = useState<string[]>([])
 
     
 
