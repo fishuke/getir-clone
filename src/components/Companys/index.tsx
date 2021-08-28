@@ -10,7 +10,7 @@ interface IProps {
   className: string;
 }
 
-const NextButton : FC = ({ onClick,className }: IProps) => {
+const NextButton : FC<NextButton> = ({ onClick,className }: IProps) => {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowForward size={22} />
@@ -18,7 +18,7 @@ const NextButton : FC = ({ onClick,className }: IProps) => {
 	)
 }
 
-const PrevButton : FC  = ({ onClick,className }: IProps) => {
+const PrevButton : FC<PrevButton>  = ({ onClick,className }: IProps) => {
 	return (
 		<button className={`${className} text-purple-700`} onClick={onClick}>
 			<IoIosArrowBack size={22} />
