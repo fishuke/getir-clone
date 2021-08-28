@@ -20,7 +20,7 @@ function NextButton ({ onClick,className }: Props) {
 }
 function PrevButton ({ onClick,className }: Props) {
 	return (
-		<button className={`${className} `} onClick={onClick}>
+		<button className={`${className}`} onClick={onClick}>
 			<IoIosArrowBack size={22} />
 		</button>
 	)
@@ -28,6 +28,8 @@ function PrevButton ({ onClick,className }: Props) {
 
 
 export const Companys: FC = () => {
+
+    
     interface BannerData {
     id:number,
     image:string
@@ -48,8 +50,8 @@ export const Companys: FC = () => {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
-		nextArrow: <NextButton className={`text-purple-700`} />,
-		prevArrow: <PrevButton className={`text-purple-700`} />,
+		nextArrow: <NextButton className={`text-purple-700`}  onClick={Slider.slickNext()}/>,
+		prevArrow: <PrevButton className={`text-purple-700`} onClick={Slider.slickPrev()}/>,
         responsive: [
         {
   breakpoint: 568,
