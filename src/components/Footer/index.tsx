@@ -36,7 +36,7 @@ export const Footer: FC = () => {
                 </nav>
                 <nav>
                     <h3 className="text-lg text-purple-700 mb-4">
-                        Getir'i keşfedin
+                        Getir`i keşfedin
                     </h3>
                     <ul className="grid gap-y-3 text-sm">
                         <li>
