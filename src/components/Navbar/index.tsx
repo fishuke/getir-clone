@@ -65,7 +65,7 @@ export const Navbar: FC<ILayoutProps> = ({ children,img }) => {
                             />
                         </div>
                     </div>
-                    <nav className="flex gap-x-8">
+                    <nav className="hidden md:flex gap-x-8">
 					<a href="#"
 					   className="hover:text-opacity-100 transition-colors text-white text-opacity-80 text-sm font-semibold gap-x-2 flex items-center">
 						<FiGlobe size={18}/>
