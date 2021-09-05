@@ -3,8 +3,8 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
 import {FiGlobe} from 'react-icons/fi';
 export const Footer: FC = () => {
     return (
-        <div className="bg-white pt-10 pb-6">
-        <div className="container mx-auto grid gap-y-5">
+        <div className="hidden md:block bg-white pt-10 pb-6">
+        <div className="ml-40 mr-40 gap-y-5">
             <div className="grid grid-cols-4">
                 <nav>
                     <h3 className="text-lg text-purple-700 mb-4">
