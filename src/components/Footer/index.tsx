@@ -8,7 +8,7 @@ export const Footer: FC = () => {
             <div className="grid grid-cols-4">
                 <nav>
                     <h3 className="text-lg text-purple-700 mb-4">
-                        Getir'i indirin!
+                        Getir`i indirin!
                     </h3>
                     <ul className="grid gap-y-3">
                         <li>
