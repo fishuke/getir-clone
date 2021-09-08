@@ -3,7 +3,8 @@ import Products from '../../api/products.json'
 import ProductItem from '../ui/ProductItem'
 export const Favorites: FC = () => {
 
-	const [products, setProducts] = useState([])
+    
+	const [products, setProducts] = useState([] as any);
 
 	useEffect(() => {
 		setProducts(Products)
