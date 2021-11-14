@@ -1,6 +1,6 @@
 # Getir Clone
 
-This project is clone project of getir made with NextJs and Tailwind
+This project is clone project of getir made with NextJs and TailwindCss.
 
 ## Installation
 
