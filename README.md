@@ -1,20 +1,20 @@
-# Geçir (Getir Clone)
+# geçir (getir clone)
 
-This project is clone project of getir made with NextJs and TailwindCss.
-Note[TR]: bu layihə yalnız təhsil məqsədləri üçün hazırlanmışdır, fişinq üçün deyil!
-Note[EN]: this project is only made for educational purposes and not for phishing!
+This project is clone project of getir made with NextJs and TailwindCss. \
+Note[TR]: bu layihə yalnız təhsil məqsədləri üçün hazırlanmışdır, fişinq üçün deyil! \
+Note[EN]: this project is only made for educational purposes and not for phishing! \
 
-## Installation
+## installation
 
-Use the package manager [npm](https://npmjs.com/) to install Getir Clone.
+use the package manager [npm](https://npmjs.com/) to install geçir.
 
 ```bash
 npm install
 ```
 
-## Getting Started
+## getting Started
 
-First, run the development server:
+first, run the development server:
 
 ```bash
 npm run dev
@@ -22,14 +22,14 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Contributing
+## contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+pull requests are welcome. for major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+please make sure to update tests as appropriate.
 
-## License
+## license
 
 [MIT](https://choosealicense.com/licenses/mit/)
