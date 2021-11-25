@@ -1,7 +1,7 @@
 # geçir (getir clone)
 
 this project is clone project of getir made with NextJs and TailwindCss. \
-note[TR]: bu layihə yalnız təhsil məqsədləri üçün hazırlanmışdır, fişinq üçün deyil! \
+note[AZE]: bu layihə yalnız təhsil məqsədləri üçün hazırlanmışdır, fişinq üçün deyil! \
 note[EN]: this project is only made for educational purposes and not for phishing! \
 
 ## installation
